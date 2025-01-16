@@ -1,6 +1,7 @@
 <script lang="ts">
-import { defineComponent, PropType } from 'vue'
-import type { User } from '../stores/userStore'
+import { defineComponent } from 'vue'
+import type { PropType } from 'vue'
+import type { User } from '../types'
 
 export default defineComponent({
   props: {
